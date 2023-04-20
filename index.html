@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="background">
+      <h1 style="text-align: center" id="h1">Tic Tac Toe</h1>
+      <button onclick="gamestart(true);onc()" id="play_freind">
+        Play with a Freind
+      </button>
+      <button id="play_robot">
+        Play with a robot(currently under development)
+      </button>
+      <p></p>
+      <h4 style="margin-left: 15px"><br />*** The game starts with X</h4>
+      <br />
+
+      <section class="main">
+        <button id="0" class="b1"></button>
+        <button id="1" class="b1"></button>
+        <button id="2" class="b1"></button>
+        <button id="3" class="b1"></button>
+        <button id="4" class="b1"></button>
+        <button id="5" class="b1"></button>
+        <button id="6" class="b1"></button>
+        <button id="7" class="b1"></button>
+        <button id="8" class="b1"></button>
+        <button
+          id="rsetBtn"
+          onclick="rset()"
+          type="button"
+          style="text-align: center"
+        >
+          Restart<br />
+        </button>
+      </section>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
